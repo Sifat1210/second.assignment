@@ -9,63 +9,54 @@ body{
     font-family: 'Poppins', sans-serif;
     max-width: 1150px;
     margin: auto;
-   
-  
 }
 
-  
+/* header and navigation part  */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
 .influencer-text{
     font-size: 24px;
     font-weight: 700;
   color: #3A3A3A;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-}
-.nav-container{
-   
-}
-
 .navigation{
     display: flex;
-
 }
 .navigation li{
- margin-right: 10px;
-    list-style: none;
-  
-    
-}
+    margin-right: 10px;
+       list-style: none;
+    }
 .navigation li a {
     text-decoration: none;
     color: #3A3A3A;
     font-weight: 600;
     padding: 10px;
-}
+}    
+
+
+
+
    
-/* banner part-- */
-.banner-part{
+/* banner part text and photo-- */
+.banner-text-photo{
     display: flex;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-bottom: 100px;
-
-
 }
-.banner-title{
+.banner-text{
     width: 70%;
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-right: 10px;
 }
 .banner-heading{
     font-size: 35px;
     color: #3A3A3A;
     font-weight: 700;
-}
-.banner-img{
-    width: 50%;
-    margin-left: 150px;
-   
 }
 .button{
     background-color: #E02C6D;
@@ -75,12 +66,16 @@ nav{
     border-radius: 40px;
     border: 1px;
 }
+.banner-img{
+    width: 40%;
+    margin-left: 150px;  
+}
 
-/* 2nd section start  */
+
+/* logo section start  */
 .logo{
     margin-bottom: 100px;
-    padding-left: 50px;
-   
+    padding-left: 50px;   
 }
 .logo img{
    margin-right: 60px;
@@ -97,13 +92,11 @@ nav{
    margin-bottom: 40px;
 }
 
-
 .main-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
 .main-container img{
-
 width: 300px;
 height: 256px;
 }
@@ -114,7 +107,7 @@ height: 256px;
 .five-star{
     padding-left: 8px;
 }
-.fas{
+.fa-star{
     color: hsl(39, 98%, 50%);
 }
 .product-title{
@@ -122,16 +115,39 @@ height: 256px;
     font-weight: 500;
     color: #808080/50% ;
 }
+
+/* only right sided button  */
 .button-right{
     margin-left: 1000px;
   padding: 20px;
 }
 
+
+/* my bonous section  */
+.bonous-section{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+     justify-content: space-between;
+}
+.bonous-photo{
+    margin-left: 100px;
+}
+.bonous-photo img{
+    width: 100%;   
+    }  
+.buy{
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: 1px;
+    background-color: #E02C6D;
+    color: white;
+    font-weight: 700;
+}
+/* footer section  */
 .footer{
     background: #000000ec;
     height: auto;
    width: auto;
- 
     color: whitesmoke;
     padding-top: 12px;
     padding-bottom: 15px;
@@ -141,25 +157,7 @@ height: 256px;
     margin-left:0px;
     font-family: serif;
 }
-.bonous-section{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    
-    justify-content: space-between;
-}
-.bonous-photo{
-    margin-left: 100px;
-   
-}
-.bonous-photo img{
-width: 80%;
 
-}
-.buy{
-    padding: 10px 15px;
-    border-radius: 15px;
-    border: 1px;
-    background-color: #E02C6D;
-    color: white;
-    font-weight: 700;
-}
+
+
+
