@@ -141,3 +141,25 @@ height: 256px;
     margin-left:0px;
     font-family: serif;
 }
+.bonous-section{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    justify-content: space-between;
+}
+.bonous-photo{
+    margin-left: 100px;
+   
+}
+.bonous-photo img{
+width: 80%;
+
+}
+.buy{
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: 1px;
+    background-color: #E02C6D;
+    color: white;
+    font-weight: 700;
+}
