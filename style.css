@@ -89,7 +89,7 @@ nav{
    font-size: 28px;
    font-weight: 600px;
    padding-right: 70px;
-   margin-bottom: 40px;
+   margin-bottom: 25px;
 }
 
 .main-container{
@@ -114,6 +114,13 @@ height: 256px;
     font-size: 16px;
     font-weight: 500;
     color: #808080/50% ;
+}
+.box-shadow{
+   margin: 0px 30px 30px 0px;
+   padding: 15px 5px 5px 30px;
+    width: auto;
+    box-shadow: 10px 10px 15px gray;
+    background-color:whitesmoke;
 }
 
 /* only right sided button  */
